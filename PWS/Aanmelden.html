@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loginpagina</title>
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="scripts/Logon.js"></script>
+</head>
+
+<body>
+    <div id="wrapper-2">
+        <h1 class="main-color">Magister V2<a class="main-color-2">.</a></h1>
+        <h2 class="main-color">
+            Vul alstublieft ur gebruikersnaam en wachtwoord in
+        </h2>
+        <br>
+        <a class="required">* </a><a>Gebruikersnaam</a><br>
+        <input id="txtGebruiker" type="text" class="logon"/><br><br>
+        <a class="required">* </a><a>Wachtwoord</a><br>
+        <input type="password" class="logon" id="txtPassword" style="margin-left: auto;"/>
+        <i class="far fa-eye" id="eye" onclick="ShowPass()"></i>
+        <br><br>
+        <button id="btnAanmelden"  class="btn-lgn" onclick="Aanmelden()">Login</button><br><br>
+        <button id="btnTerug" class="btn-lgn" onclick="window.location='index.html'">Ga terug</button>
+    </div>
+    <script type="text/javascript" src="js/Global.js"></script>
+    <script type="text/javascript" src="js/Aanmelden.js"></script>
+</body>
+
+</html>

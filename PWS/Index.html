@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home pagina</title>
+    <link rel="stylesheet" href="styles/style1.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1 class="main-color">Magister V2<a class="main-color-2">.</a></h1>
+        <h2 class="main-color">Kies alstublieft een van de volgende optie</h2><br><br>
+        <button onclick="location.href = 'Aanmelden.html?soort=leerling'" id="btnLeerling" value="Aanmelden leerling" class="btn-lgn" >Leerling login</button><br><br>
+        <button onclick="location.href = 'Aanmelden.html?soort=docent'" class="btn-lgn" id="btnDocent" value="Aanmelden docent">Docenten login</button><br><br>
+        <button onclick="location.href = 'Algemeen.html'" class="btn-lgn-dev" value="Dev tools">Dev tools</button><br><br>
+        <input id="btnStyle1" type="button" value="Licht thema" onclick="SetStyle('Style1')" />
+        <input id="btnStyle1" type="button" value="Donker thema" onclick="SetStyle('Style2')" />
+        <input id="btnStyle1" type="button" value="OLED Thema" onclick="SetStyle('Style3')" />
+    </div>
+    <script type="text/javascript" src="js/Global.js"></script>
+</body>
+
+</html>

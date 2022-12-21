@@ -1,0 +1,228 @@
+﻿*{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+body {
+    background-color: rgb(26, 26, 26);
+}
+
+h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+#wrapper{
+    background-color: rgb(65, 63, 65);
+    border-radius: 25px;
+    border: 0px solid black;
+    width: 25%;
+    height: 490px;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#wrapper-2{
+    background-color: rgb(65, 63, 65);
+    border-radius: 25px;
+    border: 0px solid black;
+    width: 25%;
+    height: 540px;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#wrapper-3{
+    background-color: rgb(65, 63, 65);
+    border-radius: 25px;
+    border: 0px solid black;
+    width: 30%;
+    height: 540px;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+    color:white;
+}
+
+#wrapper-4{
+    background-color: rgb(65, 63, 65);
+    border-radius: 25px;
+    border: 0px solid black;
+    width: 87%;
+    height: 850px;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+    margin-top: 5px;
+    margin-left:12%;
+}
+
+
+#versie{
+    background-color: rgb(65, 63, 65);
+    border-radius: 25px;
+    border: 0px solid black;
+    width: 25%;
+    height: 250px;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.main-color{
+    color:rgb(36, 167, 255);
+}
+
+.main-color-2{
+    color:orange;
+}
+
+.main-white{
+    color:white;
+}
+
+.btn-lgn{
+    background-color: rgb(36, 167, 255);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 200px;
+}
+
+input.versie{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.btn-lgn-dev{
+    background-color: rgb(214, 105, 105);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 200px;
+}
+
+input.logon{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(36, 167, 255);
+    padding: 5px;
+    margin: 5px;
+}
+
+.required{
+    color:red;
+}
+
+#eye{
+    margin-left: -32px; 
+    cursor: pointer;
+    user-select: none;
+}   
+
+.btn-dev{
+    background-color: rgb(214, 105, 105);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 160px;
+    height: 40px;
+}
+
+.btn-dev:hover, .btn-lgn-dev:hover{
+    background-color: rgb(209, 90, 90);
+}
+
+.btn-lgn:hover{
+    background-color: rgb(21, 155, 245);
+}
+
+.btn-dev:active, .btn-lgn-dev:active {
+    background-color: rgb(209, 40, 40);
+}
+
+.btn-lgn:active{
+    background-color: rgb(16, 100, 156);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 220px;   
+    background-color:rgb(36, 167, 255);
+    position: fixed;
+    height: 98%;
+    overflow: auto;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 5px;
+  }
+  
+  li a.active {
+    background-color: rgb(0, 100, 248);
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(0, 130, 248);
+    color: white;
+  }
+
+.magister, .magister:active, .magister:hover{
+    font-size: 48px;
+    color:white;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+nav.top{
+    background-color: rgb(36, 167, 255);
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    margin-top: 0%;
+}

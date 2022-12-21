@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Leerling overzicht</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <style>
+        input[type="text"]{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="top">
+        <a class="magister">Magister</a>
+    </nav>
+
+    <nav class="side" >
+        <ul>
+            
+            <li><a style="cursor:pointer">Vandaag</a></li>
+            <li><a style="cursor:pointer">Agenda</a></li>
+            <li><a style="cursor:pointer">Afwezigheid</a></li>
+            <li><a class="active" style="cursor:pointer">Cijfers</a></li>
+            <li><a style="cursor:pointer">Afwezigheid</a></li>
+        </ul>
+    </nav>
+     <div id="wrapper-4" class="center">
+        <table>
+            <caption id="TabelNaam">MijnOverzicht</caption>
+            <thead>
+                <tr>
+                    <th>Vak</th>
+                    <th>Docent</th>
+                    <th colspan="5">Cijfers</th>
+                    <th>Gemiddelde</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="MijnCijfers">
+                <!-- Vullen vanuit javascript-->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td><input class="btn-lgn" id="btnTerug" type="button" value="Terug" onclick="location.href = 'Index.html'" /></td>
+                    <td></td>
+                    <td colspan="5"><input class="btn-lgn" id="btnBereken" type="button" value="Bereken" onclick="Berekenen();" /></td>
+                    <td><input id="hidAantalVakken" type="hidden" /></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script type="text/javascript" src="js/Global.js"></script>
+    <script type="text/javascript" src="js/LeerlingOverzicht.js"></script>
+</body>
+</html>

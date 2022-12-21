@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cijferinvoer docenten</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+
+    
+    <nav class="top">
+        <a class="magister">Magister</a>
+    </nav>
+
+    <nav class="side" >
+        <ul>
+            
+            <li><a style="cursor:pointer">Vandaag</a></li>
+            <li><a style="cursor:pointer">Aanwezigheid</a></li>
+            <li><a class="active" style="cursor:pointer">Cijferinvoer</a></li>
+            <li><a style="cursor:pointer">ELO</a></li>
+            <li><a style="cursor:pointer">Berichten</a></li>
+            <li><a style="cursor:pointer">Afwezigheid</a></li>
+        </ul>
+    </nav>
+     <div id="wrapper-4" class="center">
+     <div id="root" class="center">
+
+        <table>
+            <caption id="TabelNaam">Cijferoverzicht</caption>
+            <thead>
+                <tr>
+                    <th>Naam</th>
+                    <th colspan="5">Cijfers</th>
+                    <th>Gemiddelde</th>
+                </tr>
+
+            </thead>
+            <tbody id="LeerlingData">
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td><input id="btnTerug" type="button" value="Terug" onclick="location.href = 'Index.html'" /></td>
+                    <td colspan="5"><input id="btnOpslaan" type="button" value="Opslaan en bijwerken" onclick="OpslaanEnBijwerken()" /></td>
+                    <td><input id="hidDocentId" type="hidden" /></td>
+                </tr>
+            </tfoot>
+            <tr>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript" src="js/Global.js"></script>
+    <script type="text/javascript" src="js/DocentInvoer.js"></script>
+</body>
+</html>
